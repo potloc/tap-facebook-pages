@@ -104,8 +104,22 @@
 		"place": {
 			"type": [
 				"null",
-				"string"
-			]
+				"object"
+			],
+			"properties": {
+				"id": {
+					"type": [
+						"null",
+						"string"
+					]
+				},
+				"name": {
+					"type": [
+						"null",
+						"string"
+					]
+				}
+			}
 		},
 		"story": {
 			"type": [
