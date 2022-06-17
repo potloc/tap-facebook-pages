@@ -34,7 +34,7 @@ BASE_URL = "https://graph.facebook.com/v10.0/{page_id}"
 
 
 def parse_datetime(datetime_str: str) -> pendulum.DateTime:
-    return pendulum.parse(datetime_str).format("YYYY-MM-DD'T'HH:MM:SS")
+    return pendulum.parse(datetime_str).format("YYYY-MM-DDTHH:MM:SS")
 
 def is_status_code_fn(blacklist=None, whitelist=None):
     def gen_fn(exc):
